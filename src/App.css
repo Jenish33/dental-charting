@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+.main {
+  display: block !important;
+}
+.table {
+  display: block !important;
+  margin-top: 20px;
+}
+.dental {
+  display: flex;
+  gap: 20px;
+}
+.bracket {
+  position: absolute;
+  top: 90px;
+  height: auto;
+  width: 29px;
+  z-index: 1;
+  left: 10px;
+}
+.tooth {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+.icon-img {
+  margin: 10px;
+}
+.headding {
+  text-align: center;
+}
+.tooth-img:active {
+  border-radius: 10px;
+  border: 1px solid black;
+}
